@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Future-Scholars/paperlib/releases/download/release-electron-3.1.8/Paperlib_3.1.8.exe#/dl.7z",
-            "hash": "sha512:b1f36f6d9d4848dd8f8ac3edfeb301861f1262c27b1ff1217c268f116f13d73c3358e1775205b068934fd1836cc66dc53503bac53693d8a5a2fce04ddcd7f163",
+            "hash": "d7dd840d90106c14d434e5a9d84fd3cb842fe8d74c5e1350df9a8e2bdce82556d6799c52807c4bb0bee60d85cdb46305c7c63b16bed866899ed57697bdaff4e3",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
@@ -28,11 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Future-Scholars/paperlib/releases/download/release-electron-$version/Paperlib_$version.exe#/dl.7z",
-                "hash": {
-                    "url": "https://distribution.paperlib.app/electron-win/latest.yml",
-                    "regex": "sha512:\\s*$base64"
-                }
+                "url": "https://github.com/Future-Scholars/paperlib/releases/download/release-electron-$version/Paperlib_$version.exe#/dl.7z"
             }
         }
     }
