@@ -1,6 +1,8 @@
 {
     "version": "5.1.0.1822",
     "description": "Bandicam Portable Version",
+    "homepage": "https://www.bandicam.cn",
+    "license": "Bandicam",
     "url": "https://github.com/Sorades/AppBucket/releases/download/BDM/BDM_v5.1.0.1822.zip",
     "hash": "4235AEBE2B86BD3250E5F871543541D95BA018B17AD68B69F780953410851FEB",
     "bin": "Bandicam_Portable_NonAdmin.exe",
