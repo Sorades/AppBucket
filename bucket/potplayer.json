@@ -4,7 +4,7 @@
     "homepage": "https://potplayer.daum.net/",
     "license": "kakaocorp",
     "url": "https://github.com/Sorades/AppBucket/releases/download/PPL/PPL_v1.7.22058.zip",
-    "hash": "E1F605A6D101E355850633FD2DE065BF355255F2A2DCDE0B0AEC62B8305523C7",
+    "hash": "71850D59C317717E014EA7FE58EAD0CE1D64FDB0080FDE4FCA7834CB191B7975",
     "bin": "PotPlayerMini64.exe",
     "shortcuts": [
         [
