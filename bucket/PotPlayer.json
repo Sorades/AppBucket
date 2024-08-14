@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/Sorades/AppBucket/releases/latest",
+        "url": "https://api.github.com/repos/Sorades/AppBucket/releases",
         "regex": "PPL_v([\\d.]+)"
     },
     "autoupdate": {
