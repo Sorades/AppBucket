@@ -15,6 +15,6 @@
         "regex": "BDM_v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Sorades/AppBucket/releases/download/BDM/BDM_v{version}.zip"
+        "url": "https://github.com/Sorades/AppBucket/releases/download/BDM/BDM_v$version.zip"
     }
 }
