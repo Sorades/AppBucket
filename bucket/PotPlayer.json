@@ -1,0 +1,22 @@
+{
+    "version": "1.7.22058",
+    "description": "PotPlayer Portable Version",
+    "homepage": "https://potplayer.daum.net/",
+    "license": "kakaocorp",
+    "url": "https://github.com/Sorades/AppBucket/releases/download/PPL/PPL_v1.7.22058.zip",
+    "hash": "E1F605A6D101E355850633FD2DE065BF355255F2A2DCDE0B0AEC62B8305523C7",
+    "bin": "PotPlayerMini64.exe",
+    "shortcuts": [
+        [
+            "PotPlayerMini64.exe",
+            "PotPlayer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/Sorades/AppBucket/releases/latest",
+        "regex": "PPL_v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Sorades/AppBucket/releases/download/PPL/PPL_v$version.zip"
+    }
+}
