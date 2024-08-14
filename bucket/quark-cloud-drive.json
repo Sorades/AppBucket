@@ -1,0 +1,22 @@
+{
+    "version": "2.5.10",
+    "description": "Quark Cloud Drive Portable Version",
+    "homepage": "https://pan.quark.cn/",
+    "license": "Quark",
+    "url": "https://github.com/Sorades/AppBucket/releases/download/QCD/QCD_v2.5.10.zip",
+    "hash": "F97925C2ADCA15F77A919F72733C49EDC0C091A98E72F021AEAB322EAE4E586A",
+    "bin": "quark-cloud-drive.exe",
+    "shortcuts": [
+        [
+            "quark-cloud-drive.exe",
+            "夸克网盘"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/Sorades/AppBucket/releases",
+        "regex": "QCD_v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Sorades/AppBucket/releases/download/QCD/QCD_v$version.zip"
+    }
+}
