@@ -1,0 +1,39 @@
+{
+    "version": "7.32",
+    "description": "Bandizip portable Version",
+    "homepage": "https://www.bandisoft.com",
+    "license": "Bandisoft",
+    "url": "https://github.com/Sorades/AppBucket/releases/download/BDZ/BDZ_v7.32.zip",
+    "hash": "879C064E411FC1F1B076C90A08DE58F780B5921E23F262E8E784DE27D54E4CB7",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "Bandizip.x64.exe"
+            ],
+            "shortcuts": [
+                [
+                    "Bandizip.x64.exe",
+                    "Bandizip"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": [
+                "Bandizip.x86.exe"
+            ],
+            "shortcuts": [
+                [
+                    "Bandizip.x86.exe",
+                    "Bandizip"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/Sorades/AppBucket/releases",
+        "regex": "BDZ_v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Sorades/AppBucket/releases/download/BDZ/BDZ_v$version.zip"
+    }
+}
