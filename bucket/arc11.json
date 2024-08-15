@@ -18,7 +18,7 @@
         }
     },
     "pre_install": [
-        "Expand-7zipArchive \"$dir\\dl.7z\" -DestinationPath \"$dir\"",
+        "Expand-7zipArchive \"$dir\\dl-arc.7z\" -DestinationPath \"$dir\"",
         "Expand-7zipArchive \"$dir\\dl-dep1.7z\" -DestinationPath \"$dir\"",
         "Expand-7zipArchive \"$dir\\dl-dep2.7z\" -DestinationPath \"$dir\""
     ],
