@@ -1,5 +1,5 @@
 {
-    "version": "9.9.11_240606_01",
+    "version": "9.9.15_240808_01",
     "description": "An instant messaging tool that gives you the best way to keep in touch with your friends and family, Build with Electron",
     "homepage": "https://im.qq.com",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.11_240606_x64_01.exe#/dl.7z",
-            "hash": "281931793c9260c7f220b34e16517f8fb577026186e6c1c94f7eac6489861543"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.15_240808_x64_01.exe#/dl.7z",
+            "hash": "07d1cb0f57d8a6ec78cd03a5a76d09a79bc306a78c49b0dd6203d875dee36828"
         },
         "32bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.11_240606_x86_01.exe#/dl.7z",
-            "hash": "c14106bfff6ef44a006fc5a6bf8927933e67e8f9d30502f4d54d0736c790cfd4"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.15_240808_x86_01.exe#/dl.7z",
+            "hash": "316227c90e99f9ded6687cd046e99189352d43d5cdb4823b95d9ed5fd6e1351c"
         }
     },
     "installer": {
@@ -42,7 +42,7 @@
             "Remove-Item \"$env:APPDATA\\QQ\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
         ]
     },
-     "checkver": {
+    "checkver": {
         "script": [
             "$url = 'https://im.qq.com/pcqq/index.shtml'",
             "$resp = Invoke-WebRequest -Uri $url",
