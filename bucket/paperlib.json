@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Future-Scholars/paperlib/releases/download/release-electron-$version/Paperlib_$version.exe#/dl.7z",
+                "url": "https://github.com/Future-Scholars/paperlib/releases/download/release-electron-$version/Paperlib_$version.exe#/dl.7z"
             }
         }
     }
