@@ -12,7 +12,7 @@
         ]
     ],
     "persist": [
-      "Config",
+      "Config"
     ],
     "checkver": {
         "github": "https://github.com/BluePointLilac/ContextMenuManager"
