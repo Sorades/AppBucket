@@ -1,0 +1,29 @@
+{
+    "version": "0.0.0",
+    "description": "自动爬塔! 自动每周任务! 全自动免配置跨平台的Fate/Grand Order助手.启动脚本,上床睡觉,养肝护发,满加成圣诞了解一下?",
+    "homepage": "https://github.com/hgjazhgj/FGO-py",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hgjazhgj/FGO-py/releases/download/v0.0.0/FGO-py.portable.7z",
+            "hash": "623b397a4c6bf677bcdbefc745b2dc4a3a9dd207d44c992b6b08a00815e599d9"
+        }
+    },
+    "bin": "FGO-py.bat",
+    "shortcuts": [
+        [
+            "FGO-py.bat",
+            "FGO-py"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/hgjazhgj/FGO-py"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hgjazhgj/FGO-py/releases/download/v$version/FGO-py.portable.7z"
+            }
+        }
+    }
+}
